@@ -1,0 +1,9 @@
+[Unit]
+Description=Sistemas Operativos 1 - Actividad 4 
+
+[Service]
+Type=simple
+ExecStart=/home/edwin/actividad4.sh
+
+[Install]
+WantedBy=multi-user.target  
